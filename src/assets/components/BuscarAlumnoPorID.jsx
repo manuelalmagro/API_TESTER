@@ -37,5 +37,4 @@ function BuscarAlumnoPorID() {
         </div>
     );
 }
-
 export default BuscarAlumnoPorID;
