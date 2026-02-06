@@ -15,15 +15,15 @@ function App() {
       <Header vista={vista} setVista={setVista} />
 
       <div className="grid">
-        {vista === "crear" && (
-          <div className="panel">
-            <CrearAlumno />
-          </div>
-        )}
-
         {vista === "buscar" && (
           <div className="panel">
             <BuscarAlumnoPorID />
+          </div>
+        )}
+
+        {vista === "crear" && (
+          <div className="panel">
+            <CrearAlumno />
           </div>
         )}
 
